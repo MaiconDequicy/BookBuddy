@@ -25,13 +25,19 @@ class SplashScreen : AppCompatActivity()
         val handler = Handler(Looper.getMainLooper())
         handler.postDelayed(
         {
-            irTelaMain()
+            irTelaLogin()
         }, 2000)
     }
 
     private fun irTelaMain()
     {
         val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+        finish()
+    }
+    private fun irTelaLogin()
+    {
+        val intent = Intent(this, Login::class.java)
         startActivity(intent)
         finish()
     }

@@ -3,15 +3,14 @@
     <style name="Base.Theme.BookBuddy" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- Cor primária (Azul Claro) -->
-        <item name="colorPrimary">@color/light_blue</item>
+        <item name="colorPrimary">@color/telegram_blue</item>
         <!-- Cor da barra de status (Azul Claro) -->
-        <item name="android:statusBarColor">@color/light_blue</item>
+        <item name="android:statusBarColor">@color/telegram_blue</item>
         <!-- Cor da barra de navegação (Azul Claro) -->
-        <item name="android:navigationBarColor">@color/light_blue</item>
+        <item name="android:navigationBarColor">@color/telegram_blue</item>
         <!-- Cor da barra de ação (Azul Claro) -->
-        <item name="colorPrimaryDark">@color/light_blue</item>
         <!-- Cor de destaque (Marrom de Corgi) -->
-        <item name="colorAccent">@color/brown</item>
+        <item name="colorAccent">@color/white</item>
     </style>
 
     <style name="Theme.BookBuddy" parent="Base.Theme.BookBuddy" />
